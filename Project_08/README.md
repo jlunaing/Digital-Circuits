@@ -3,6 +3,17 @@
 This project uses the Basys 3 FPGA board to control 3 servo motors that make up
 a robotic arm system.
 
+- [Servomotor-Actuated Robotic Arm](#servomotor-actuated-robotic-arm)
+  - [Testing Demo](#testing-demo)
+  - [Background](#background)
+  - [System Overview](#system-overview)
+    - [An Overview of Servo Motors](#an-overview-of-servo-motors)
+    - [Interfacing with the Servo Motor](#interfacing-with-the-servo-motor)
+    - [Schematic Diagram](#schematic-diagram)
+  - [Components and Assembly](#components-and-assembly)
+  - [Results and Final Remarks](#results-and-final-remarks)
+
+
 ## Testing Demo
 
 <p align="center">
@@ -29,18 +40,18 @@ system, as a whole, works like a simple pick-and-place machine in which you have
 connected to a gear mechanism that moves two links that can pick up objects.
 The prototype used in the demo video is shown below.
 
-  <p align="center">
-    <img src="" alt="Robotic arm prototype"/>
- </p>
+<p align="center">
+    <img src="Project_08/Images/prototype.png" alt="Robotic arm prototype"/>
+</p>
 
 The design and testing of the digital system was developed in Vivado using 
 SystemVerilog. You can access the code in the 
-[Final_Project/Final_Project.srcs/sources_1/new](source code).
+[source code](Final_Project/Final_Project.srcs/sources_1/new).
 
 In order to design modules to interact with a servo motor, we first need to 
 understand some of the basics of this type of motor.
 
-### A. An Overview of Servo Motors
+### An Overview of Servo Motors
 
 Servo motors are controlled by sending eletrical signals in the form of pulses 
 of variable width. This is also known as pulse-width modulation (PWM). The PWM 
@@ -52,7 +63,7 @@ position and hold that position. For instance, a shorter pulse of 1 ms can be
 translated into a small rotation of the shaft while a 2-ms pulse would 
 correspond to a larger degree of rotation.
 
-### B. Interfacing with the Servo Motor
+### Interfacing with the Servo Motor
 
 To servo motor needs needs a frequency at which its shaft position is updated.
 This is the refresh or update rate. In code, a `counter()` module sets this 
@@ -77,7 +88,7 @@ desired 0 and 180-deg rotations.
 A `comparator()` module takes the `count` from `counter()` and output from the
 `angle_decoder()` and compare both values. This sets the PWM signal.
 
-### C. Schematic Diagram
+### Schematic Diagram
 
 A circuit schematic that illustrates this is shown below. The system takes a 
 12-bit input form the switches. Each switch is mapped to a particular servo
@@ -85,12 +96,16 @@ motor. The output of the system is the specific PWM level that will move the
 servo motor to a set location.
 
 <p align="center">
-    <img src="" alt="H-Bridge-Logic"/>
+    <img src="Project_08/Images/circuit_schematic.png" alt="Circuit schematic"/>
 </p>
 
 The `SW_TO_ANGLE`, `ANGLE_DEC`, and `COMPARATOR` modules are instantiated once 
 per each servo motor. Thus, including the `COUNTER`, there are 10 modules in 
 total. All of these modules are under the top `main()` module.
+
+<p align="center">
+    <img src="Project_08/Images/module_structure.png" alt="Structure of modules"/>
+</p>
 
 ## Components and Assembly
 
@@ -106,16 +121,16 @@ To create the system shown in the demo, the components listed below can be used.
 - 3D-printed cylinder or brass pipe (4-mm dia, 22-mm long) (x1)
 
 Any FPGA board with compatible peripherals could be used. The 3D printed parts,
-found in [https://www.thingiverse.com/thing:1015238](Thingiverse), are
+found in [Thingiverse](https://www.thingiverse.com/thing:1015238), are
 compatible with the dimensions of the SG90 9G micro servos, which are roughly 
 23-mm x 12.2-mm x 22-mm. If different servos are to be used, a modified 3D 
 model is needed.
 
 If using the provided model, the assembly is straightforward and instructions
-can be found in the [https://www.instructables.com/EEZYbotARM/](Instructables) 
+can be found in the [Instructables](https://www.instructables.com/EEZYbotARM/)
 site.
 
-## Results and Limitations
+## Results and Final Remarks
 
 The servo motors used in this project have limited range, only being able to 
 move 90-deg in each direction or 180-deg in total. During the development of 
