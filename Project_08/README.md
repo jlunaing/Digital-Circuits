@@ -1,9 +1,11 @@
 # Servomotor-Actuated Robotic Arm
 
-This project uses the Basys 3 FPGA board to control 3 servo motors that make up
+This project uses the Basys 3 FPGA board to control three servo motors that make up
 a robotic arm system.
 
+### Table of Contents
 - [Servomotor-Actuated Robotic Arm](#servomotor-actuated-robotic-arm)
+    - [Table of Contents](#table-of-contents)
   - [Testing Demo](#testing-demo)
   - [Background](#background)
   - [System Overview](#system-overview)
@@ -41,7 +43,7 @@ connected to a gear mechanism that moves two links that can pick up objects.
 The prototype used in the demo video is shown below.
 
 <p align="center">
-    <img src="Project_08/Images/prototype.png" alt="Robotic arm prototype"/>
+    <img src="https://github.com/jlunaing/Digital-Circuits/blob/ced2aed072302a2a873ac1942163682495c2b3e9/Project_08/Images/prototype.jpg" alt="Robotic arm prototype"/>
 </p>
 
 The design and testing of the digital system was developed in Vivado using 
@@ -96,7 +98,7 @@ motor. The output of the system is the specific PWM level that will move the
 servo motor to a set location.
 
 <p align="center">
-    <img src="Project_08/Images/circuit_schematic.png" alt="Circuit schematic"/>
+    <img src="https://github.com/jlunaing/Digital-Circuits/blob/ced2aed072302a2a873ac1942163682495c2b3e9/Project_08/Images/circuit_schematic.png" alt="Circuit schematic"/>
 </p>
 
 The `SW_TO_ANGLE`, `ANGLE_DEC`, and `COMPARATOR` modules are instantiated once 
@@ -104,7 +106,7 @@ per each servo motor. Thus, including the `COUNTER`, there are 10 modules in
 total. All of these modules are under the top `main()` module.
 
 <p align="center">
-    <img src="Project_08/Images/module_structure.png" alt="Structure of modules"/>
+    <img src="https://github.com/jlunaing/Digital-Circuits/blob/ced2aed072302a2a873ac1942163682495c2b3e9/Project_08/Images/module_structure.png" alt="Structure of modules"/>
 </p>
 
 ## Components and Assembly
