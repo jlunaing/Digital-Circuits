@@ -92,7 +92,9 @@ the slope and intercept values for the PWM signal that would generate the
 desired 0 and 180-deg rotations.
 
 A `comparator()` module takes the `count` from `counter()` and output from the
-`angle_decoder()` and compare both values. This sets the PWM signal.
+`angle_decoder()` and compare both values. If the count value is greater than
+the output value of the counter, then the signal is interpreted as high. 
+Otherwise, the signal is low. This sets the desired PWM signal.
 
 ### Schematic Diagram
 
