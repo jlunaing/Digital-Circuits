@@ -3,14 +3,15 @@
   * Engineer: Juan Luna
   *  
   * Create Date: 2023-03-10
-  * Design Name: TBD
+  * Design Name: Servo-Motor-Actuated Robotic Arm Project
   * Module Name: sw_to_angle
   * Project Name: Final Project
   * Target Devices: Basys 3 board
   * Revision: 1
   *
   * Description:
-  *     This module contains an implementation of...
+  *     This module mappes a switch on an FPGA board to a specific
+  *     angle of rotation of the servo motor. 
   */
   
 // Convert from switch value to angle
@@ -35,6 +36,9 @@ module sw_to_angle (
     
 endmodule
 
+// Initially assumed 360-deg rotation
+// This can replace the code above if servo motors have
+// continuous rotation
 
 //case (sw)
 //    1:  angle = 9'd0;       // Switch 0

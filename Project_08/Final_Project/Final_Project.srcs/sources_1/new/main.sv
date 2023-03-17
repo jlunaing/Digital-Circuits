@@ -3,7 +3,7 @@
   * Engineer: Juan Luna
   *  
   * Create Date: 2023-03-10
-  * Design Name: TBD
+  * Design Name: Servo-Motor-Actuated Robotic Arm Project
   * Module Name: main
   * Project Name: Final Project
   * Target Devices: Basys 3 board
