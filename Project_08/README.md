@@ -116,7 +116,7 @@ total. All of these modules are under the top `main()` module.
 
 <p align="center">
     <img src="https://github.com/jlunaing/Digital-Circuits/blob/ced2aed072302a2a873ac1942163682495c2b3e9/Project_08/Images/module_structure.png" 
-    width=85%
+    width=30%
     alt="Structure of modules"/>
 </p>
 
