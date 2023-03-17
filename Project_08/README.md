@@ -22,7 +22,10 @@ Here is a video showing the system in action!
 
 <p align="center">
     <a href="https://youtube.com/shorts/qI1xIHtNqUA?feature=share" target="_blank">
-    <img src="https://i.ytimg.com/vi/qI1xIHtNqUA/hq2.jpg?sqp=-oaymwEoCOADEOgC8quKqQMcGADwAQH4Ac4FgAKACooCDAgAEAEYciBVKCkwDw==&rs=AOn4CLDZ8I8Ya3cPY6Vq__X0pjdkqKl_RQ" alt="Robotic arm test video!" width="240" height="180" border="10" />
+    <img src="https://i.ytimg.com/vi/qI1xIHtNqUA/hq2.jpg?sqp=-oaymwEoCOADEOgC8quKqQMcGADwAQH4Ac4FgAKACooCDAgAEAEYciBVKCkwDw==&rs=AOn4CLDZ8I8Ya3cPY6Vq__X0pjdkqKl_RQ" 
+    alt="Robotic arm test video!" 
+    width=70%
+    border="10" />
     </a>
 </p>
 
@@ -112,7 +115,9 @@ per each servo motor. Thus, including the `COUNTER`, there are 10 modules in
 total. All of these modules are under the top `main()` module.
 
 <p align="center">
-    <img src="https://github.com/jlunaing/Digital-Circuits/blob/ced2aed072302a2a873ac1942163682495c2b3e9/Project_08/Images/module_structure.png" alt="Structure of modules"/>
+    <img src="https://github.com/jlunaing/Digital-Circuits/blob/ced2aed072302a2a873ac1942163682495c2b3e9/Project_08/Images/module_structure.png" 
+    width=85%
+    alt="Structure of modules"/>
 </p>
 
 ## Components and Assembly
