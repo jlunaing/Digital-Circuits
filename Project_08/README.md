@@ -18,6 +18,8 @@ a robotic arm system.
 
 ## Testing Demo
 
+Here is a video showing the system in action!  
+
 <p align="center">
     <a href="https://youtube.com/shorts/qI1xIHtNqUA?feature=share" target="_blank">
     <img src="https://i.ytimg.com/vi/qI1xIHtNqUA/hq2.jpg?sqp=-oaymwEoCOADEOgC8quKqQMcGADwAQH4Ac4FgAKACooCDAgAEAEYciBVKCkwDw==&rs=AOn4CLDZ8I8Ya3cPY6Vq__X0pjdkqKl_RQ" alt="Robotic arm test video!" width="240" height="180" border="10" />
@@ -43,7 +45,9 @@ connected to a gear mechanism that moves two links that can pick up objects.
 The prototype used in the demo video is shown below.
 
 <p align="center">
-    <img src="https://github.com/jlunaing/Digital-Circuits/blob/ced2aed072302a2a873ac1942163682495c2b3e9/Project_08/Images/prototype.jpg" alt="Robotic arm prototype"/>
+    <img src="https://github.com/jlunaing/Digital-Circuits/blob/ced2aed072302a2a873ac1942163682495c2b3e9/Project_08/Images/prototype.jpg" 
+    width=40%    
+    alt="Robotic arm prototype"/>
 </p>
 
 The design and testing of the digital system was developed in Vivado using 
