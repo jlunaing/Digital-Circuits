@@ -28,7 +28,7 @@ outputs two bits—the resulting sum, *SUM* and a carry-out bit, *CO*. A black-b
 diagram model and gate-level schematic of the half adder is shown below (**Figure 1-2**).
 
 <p align="center">
-    <img src="" 
+    <img src="https://github.com/jlunaing/Digital-Circuits/blob/d198ed91618e397ae140210139db356bdb80141f/Project_01/Images/lab01_fig1.png" 
     width=40%    
     alt="Figure 1"/>
 </p>
@@ -36,7 +36,7 @@ diagram model and gate-level schematic of the half adder is shown below (**Figur
 <p align="center"><b><i>Figure 1</i></b>. Black-box model for the half adder circuit.</p>
 
 <p align="center">
-    <img src="" 
+    <img src="https://github.com/jlunaing/Digital-Circuits/blob/d198ed91618e397ae140210139db356bdb80141f/Project_01/Images/lab01_fig2.png" 
     width=40%    
     alt="Figure 2"/>
 </p>
@@ -50,7 +50,7 @@ This circuit adds three bits—two bits associated with the addition operation, 
 A black-box and gate-level schematic diagram model of the full adder (**Figure 3-4**).
 
 <p align="center">
-    <img src="" 
+    <img src="https://github.com/jlunaing/Digital-Circuits/blob/d198ed91618e397ae140210139db356bdb80141f/Project_01/Images/lab01_fig3.png" 
     width=40%    
     alt="Figure 3"/>
 </p>
@@ -58,7 +58,7 @@ A black-box and gate-level schematic diagram model of the full adder (**Figure 3
 <p align="center"><b><i>Figure 3</i></b>. Black-box model for the full adder circuit.</p>
 
 <p align="center">
-    <img src="" 
+    <img src="https://github.com/jlunaing/Digital-Circuits/blob/d198ed91618e397ae140210139db356bdb80141f/Project_01/Images/lab01_fig4.png" 
     width=40%    
     alt="Figure 4"/>
 </p>
@@ -68,8 +68,11 @@ A black-box and gate-level schematic diagram model of the full adder (**Figure 3
 For this part of the project, the sum and carry-out bits are represented in both sum-of-products (SOP) and product-of-sums (POS) forms. Using the truth table (Table 2), these forms were derived and are shown below. These two Boolean equations are functionally equivalent, and that is verified in the next section.
 
 $$SUM(SOP)=\overline{a}\overline{b}c + \overline{a} b \overline{c} + a \overline{b} \overline{c} + a b c$$
+
 $$CO(SOP)=\overline{a}bc + a\overline{b}c + ab\overline{c} + abc$$
+
 $$SUM(POS)=(a+b+c)(a+\overline{b}+\overline{c})(\overline{a}+b+\overline{c})(\overline{a}+\overline{b}+c)$$
+
 $$CO(POS)=(a+b+c)(a+b+\overline{c})(a+\overline{b}+c)(\overline{a}+b+c)$$
 
 ## Verification
@@ -77,7 +80,7 @@ $$CO(POS)=(a+b+c)(a+b+\overline{c})(a+\overline{b}+c)(\overline{a}+b+c)$$
 For the half-adder implementation, all input combinations were tested through simulation in Vivado iSim. The waveform output is shown below (**Figure 5**). Notice that the waveform is a square wave with a “low” value for a logical 0 and a “high” value for a logical 1. For the full-adder circuit, all eight cases from the truth table (Table 2) were test in simulation (**Figure 6**) and on the board. 
 
 <p align="center">
-    <img src="" 
+    <img src="https://github.com/jlunaing/Digital-Circuits/blob/d198ed91618e397ae140210139db356bdb80141f/Project_01/Images/lab01_fig5.png" 
     width=40%    
     alt="Figure 5"/>
 </p>
@@ -85,7 +88,7 @@ For the half-adder implementation, all input combinations were tested through si
 <p align="center"><b><i>Figure 5</i></b>. iSim waveform output for half adder circuit.</p>
 
 <p align="center">
-    <img src="" 
+    <img src="https://github.com/jlunaing/Digital-Circuits/blob/d198ed91618e397ae140210139db356bdb80141f/Project_01/Images/lab01_fig6.png" 
     width=40%    
     alt="Figure 6"/>
 </p>
