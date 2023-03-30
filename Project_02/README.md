@@ -42,7 +42,7 @@ A bitstream file `function_forms.bit` containing an implementation of a function
 
 <p align="center">
     <img src="https://github.com/jlunaing/Digital-Circuits/blob/12d4babf750c649477057c2c2f7e644db12dbd74/Project_02/Images/lab02_tab1.png" 
-    width=30%    
+    width=40%    
     alt="Table 1"/>
 </p>
 
