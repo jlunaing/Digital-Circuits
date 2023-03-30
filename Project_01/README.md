@@ -1,9 +1,9 @@
-## Contents
-- [Contents](#contents)
-- [Overview](#overview)
-- [Half Adder](#half-adder)
-- [Full Adder](#full-adder)
-- [Verification](#verification)
+### Table of Contents<!--omit in toc-->
+
+1. [Overview](#overview)
+2. [Half Adder](#half-adder)
+3. [Full Adder](#full-adder)
+4. [Verification](#verification)
 
 ## Overview
 
@@ -29,7 +29,7 @@ diagram model and gate-level schematic of the half adder is shown below (**Figur
 
 <p align="center">
     <img src="https://github.com/jlunaing/Digital-Circuits/blob/d198ed91618e397ae140210139db356bdb80141f/Project_01/Images/lab01_fig1.png" 
-    width=40%    
+    width=30%    
     alt="Figure 1"/>
 </p>
 
@@ -37,7 +37,7 @@ diagram model and gate-level schematic of the half adder is shown below (**Figur
 
 <p align="center">
     <img src="https://github.com/jlunaing/Digital-Circuits/blob/d198ed91618e397ae140210139db356bdb80141f/Project_01/Images/lab01_fig2.png" 
-    width=40%    
+    width=60%    
     alt="Figure 2"/>
 </p>
 
@@ -51,7 +51,7 @@ A black-box and gate-level schematic diagram model of the full adder (**Figure 3
 
 <p align="center">
     <img src="https://github.com/jlunaing/Digital-Circuits/blob/d198ed91618e397ae140210139db356bdb80141f/Project_01/Images/lab01_fig3.png" 
-    width=40%    
+    width=30%    
     alt="Figure 3"/>
 </p>
 
@@ -59,7 +59,7 @@ A black-box and gate-level schematic diagram model of the full adder (**Figure 3
 
 <p align="center">
     <img src="https://github.com/jlunaing/Digital-Circuits/blob/d198ed91618e397ae140210139db356bdb80141f/Project_01/Images/lab01_fig4.png" 
-    width=40%    
+    width=60%    
     alt="Figure 4"/>
 </p>
 
@@ -81,7 +81,7 @@ For the half-adder implementation, all input combinations were tested through si
 
 <p align="center">
     <img src="https://github.com/jlunaing/Digital-Circuits/blob/d198ed91618e397ae140210139db356bdb80141f/Project_01/Images/lab01_fig5.png" 
-    width=40%    
+    width=90%    
     alt="Figure 5"/>
 </p>
 
@@ -89,7 +89,7 @@ For the half-adder implementation, all input combinations were tested through si
 
 <p align="center">
     <img src="https://github.com/jlunaing/Digital-Circuits/blob/d198ed91618e397ae140210139db356bdb80141f/Project_01/Images/lab01_fig6.png" 
-    width=40%    
+    width=90%    
     alt="Figure 6"/>
 </p>
 
