@@ -27,8 +27,8 @@ $$SUM=a\oplus(b \oplus c)$$
 The final circuit diagram for the full adder in reduced form is shown below (**Figure 1**). Notice that the schematic from Vivado uses only two inputs for each gate. If we let the OR gate from the CO expression take three inputs, we reduce the number of gates. In either diagram, we see that reducing the FA expressions translates into having fewer of gates than the non-reduced forms.
 
 <p align="center">
-    <img src="" 
-    width=30%    
+    <img src="https://github.com/jlunaing/Digital-Circuits/blob/12d4babf750c649477057c2c2f7e644db12dbd74/Project_02/Images/lab02_fig1.png" 
+    width=60%    
     alt="Figure 1"/>
 </p>
 
@@ -41,13 +41,13 @@ A bitstream file `function_forms.bit` containing an implementation of a function
 <p align="center"><b><i>Table 1</i></b>. Truth table of function F given as a <code>.bit</code> file.</p>
 
 <p align="center">
-    <img src="" 
-    width=60%    
+    <img src="https://github.com/jlunaing/Digital-Circuits/blob/12d4babf750c649477057c2c2f7e644db12dbd74/Project_02/Images/lab02_tab1.png" 
+    width=30%    
     alt="Table 1"/>
 </p>
 
 <p align="center">
-    <img src="" 
+    <img src="https://github.com/jlunaing/Digital-Circuits/blob/12d4babf750c649477057c2c2f7e644db12dbd74/Project_02/Images/lab02_fig2.png" 
     width=60%    
     alt="Figure 2"/>
 </p>
@@ -59,7 +59,7 @@ A bitstream file `function_forms.bit` containing an implementation of a function
 For the full-adder implementation, all input combinations from the truth table were simulated using Vivado iSim. The waveform output is shown below (**Figure 3**). Notice that the waveform is a square wave with a “low” value for a logical 0 and a “high” value for a logical 1.
 
 <p align="center">
-    <img src="" 
+    <img src="https://github.com/jlunaing/Digital-Circuits/blob/12d4babf750c649477057c2c2f7e644db12dbd74/Project_02/Images/lab02_fig3.png" 
     width=90%    
     alt="Figure 3"/>
 </p>
@@ -69,7 +69,7 @@ For the full-adder implementation, all input combinations from the truth table w
 For the function F expressed in NAND/NAND and NOR/NOR forms, eight cases—i.e., the combinations with indexes 0, 1, 4, 5, 8, 9, 12, and 13—from the truth table (**Table 1**) were simulated (**Figure 4**) and on the board. 
 
 <p align="center">
-    <img src="" 
+    <img src="https://github.com/jlunaing/Digital-Circuits/blob/12d4babf750c649477057c2c2f7e644db12dbd74/Project_02/Images/lab02_fig4.png" 
     width=90%    
     alt="Figure 4"/>
 </p>
