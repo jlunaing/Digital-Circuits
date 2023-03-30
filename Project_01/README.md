@@ -1,4 +1,4 @@
-### Table of Contents<!--omit in toc-->
+### Table of Contents
 
 1. [Overview](#overview)
 2. [Half Adder](#half-adder)
