@@ -14,7 +14,7 @@ In this project, a 4-bit ripple carry adder circuit is developed using structura
 A 4-bit ripple carry adder (RCA) is a circuit that performs the arithmetic sum of two 4-bit binary numbers and provides the 4-bit resulting sum and a single-bit carry-out as outputs. A way to construct the 4-bit RCA is to have one half adder and three full adder circuits in a cascade configuration as shown below (**Figure 1**). The design is modular and iterative in that we make use of previously designed modules that are placed in a repetitive manner. The highest index in the structural model, 3, is associated with the most significant bit (MSB) and the lowest index, 0, corresponds to the least significant bit (LSB).
 
 <p align="center">
-    <img src="" 
+    <img src="https://github.com/jlunaing/Digital-Circuits/blob/cbde5662a78c3965d5491ab7d556ee13582399ae/Project_03/Images/lab03_fig1.png" 
     width=50%    
     alt="Figure 1"/>
 </p>
@@ -30,17 +30,17 @@ A 4-bit comparator is a circuit that compares two 4-bit binary numbers, A and B,
 In the implementation of the 4-bit RCA, four input combinations from were simulated using Vivado iSim and implemented on the board (**[demo video](https://youtube.com/shorts/ikTKDpd7sPg?feature=share)**). The waveform output is shown below (**Figure 2**). The RCA performs arithmetic addition, so we can validate the model by simply evaluating that the input combination generates the correct output. We see that when $A=1$ and $B=2$, the sum is 3 and there is no carry-out ($cout=0$). Likewise, when $A$ and $B$ are both $1111$ ($F$ or $15$) the sum is $1110$ ($E$ or $14$) with a carry-out $cout=1$.
 
 <p align="center">
-    <img src="" 
+    <img src="https://github.com/jlunaing/Digital-Circuits/blob/cbde5662a78c3965d5491ab7d556ee13582399ae/Project_03/Images/lab03_fig2.png" 
     width=90%    
     alt="Figure 2"/>
 </p>
 
 <p align="center"><b><i>Figure 2</i></b>. iSim waveform output for 4-bit ripple carry adder.</p>
 
-For the 4-bit comparator implementation, four test cases were simulated in Vivado (**Figure 3**) and implemented on the board (**[demo video](https://youtube.com/shorts/QEeE-qLEZpg?feature=share)**). We can see that all tests match the expected output. For instance, inputs $A=0010$ $(2)$ and $B=0010$ $(2)$ have a high or TRUE value for the equal (*EQ*) output. Likewise, at $t=40 ns$, we see that when $A=4$ and $B=8$, the less than (*LT*) output is true and correctly represents $A<B$. Additionally, note that all cases only have one true output—e.g., cannot have less than and greater than at the same time—further validating the model.
+For the 4-bit comparator implementation, four test cases were simulated in Vivado (**Figure 3**) and implemented on the board (**[demo video](https://youtube.com/shorts/QEeE-qLEZpg?feature=share)**). We can see that all tests match the expected output. For instance, inputs $A=0010$ $(2)$ and $B=0010$ $(2)$ have a high or TRUE value for the equal (*EQ*) output. Likewise, at $t=40 ns$, we see that when $A=4$ and $B=8$, the less than (*LT*) output is true and correctly represents $A < B$. Additionally, note that all cases only have one true output—e.g., cannot have less than and greater than at the same time—further validating the model.
 
 <p align="center">
-    <img src="" 
+    <img src="https://github.com/jlunaing/Digital-Circuits/blob/cbde5662a78c3965d5491ab7d556ee13582399ae/Project_03/Images/lab03_fig3.png" 
     width=90%    
     alt="Figure 3"/>
 </p>
