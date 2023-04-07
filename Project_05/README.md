@@ -53,7 +53,7 @@ Likewise, for the module in Part B, we also perform five tests and check that th
 
 <p align="center">
     <img src="https://github.com/jlunaing/Digital-Circuits/blob/88a7ab119d7f6573f6b9d32709c2f0e3da644cb9/Project_05/Images/lab05_tab1.png" 
-    width=60%    
+    width=55%    
     alt="Table 1"/>
 </p>
 <p align="center"><b><i>Table 1</i></b>. Test cases for comparator display module in Part A.</p>
