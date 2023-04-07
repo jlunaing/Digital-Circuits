@@ -13,7 +13,7 @@ In this project, a binary-coded decimal (BCD) comparator display module circuit 
 Using block-level design and structural modeling, we build a circuit that takes two 4-bit BCD numbers as inputs and outputs the greater of these two numbers on the left-most 7-segment display. If the two number are equal, the display is blank. The structural model of this circuit is shown below (**Figure 1**). The hand-sketched and Vivado’s RTL-generated models are shown.
 
 <p align="center">
-    <img src="https://github.com/jlunaing/Digital-Circuits/blob/b0692f711d9a919ff92cf1cb2e4a635d347e12e1/Project_05/Images/lab05_fig1_1.png" 
+    <img src="https://github.com/jlunaing/Digital-Circuits/blob/18610091e0628354c764e349ea0fdef1394f054f/Project_05/Images/lab05_fig1_1.png" 
     width=60%    
     alt="Figure 1-1"/>
 </p>
@@ -32,7 +32,7 @@ The inputs $A$ and $B$ are mapped to the left-most and right-most switches, resp
 The BCD comparator display circuit implemented in Part A is redesigned to incorporate additional behavior. The inputs and their respective mapping are unchanged but the output is now different. If the two numbers are equal, the two middle 7-segment displays are turned on. If $A > B$, the left-most display is on and, if $A < B$, the right-most display is on. If the button in the center is pressed, all displays are off regardless of values. The structural model of this circuit is shown below (**Figure 2**).
 
 <p align="center">
-    <img src="https://github.com/jlunaing/Digital-Circuits/blob/b0692f711d9a919ff92cf1cb2e4a635d347e12e1/Project_05/Images/lab05_fig2_1.png" 
+    <img src="https://github.com/jlunaing/Digital-Circuits/blob/18610091e0628354c764e349ea0fdef1394f054f/Project_05/Images/lab05_fig2_1.png 
     width=60%    
     alt="Figure 2-1"/>
 </p>
