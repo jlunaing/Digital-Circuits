@@ -52,7 +52,7 @@ For the implementation of the BCD comparator design, several input combinations 
 Likewise, for the module in Part B, we also perform five tests and check that there is correct mapping of inputs and outputs. We can use the same test cases from before and simply check that the additional behavior from this module is what we expect. If there is a greater number, we should see only one display showing the number. If $A > B$, the left-most display should be on and if $A < B$, the right-most display should light up instead. If both numbers are equal, only the two displays in the middle should be on, showing matching numbers. The four displays are labeled $AN0$ (right-most digit) through $AN3$ (left-most digit).
 
 <p align="center">
-    <img src="https://github.com/jlunaing/Digital-Circuits/blob/b0692f711d9a919ff92cf1cb2e4a635d347e12e1/Project_05/Images/lab05_fig2_1.png" 
+    <img src="https://github.com/jlunaing/Digital-Circuits/blob/88a7ab119d7f6573f6b9d32709c2f0e3da644cb9/Project_05/Images/lab05_tab1.png" 
     width=60%    
     alt="Table 1"/>
 </p>
@@ -60,7 +60,7 @@ Likewise, for the module in Part B, we also perform five tests and check that th
 
 <br/>
 <p align="center">
-    <img src="https://github.com/jlunaing/Digital-Circuits/blob/b0692f711d9a919ff92cf1cb2e4a635d347e12e1/Project_05/Images/lab05_fig2_2.png" 
+    <img src="https://github.com/jlunaing/Digital-Circuits/blob/88a7ab119d7f6573f6b9d32709c2f0e3da644cb9/Project_05/Images/lab05_tab2.png" 
     width=60%    
     alt="Table 2"/>
 </p>
