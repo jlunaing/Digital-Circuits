@@ -1,3 +1,9 @@
+### Table of Contents
+
+1. [Overview](#overview)
+2. [Part A: Simple Data Latching and Display Circuit](#part-a-simple-data-latching-and-display-circuit)
+3. [Part B: T Flip-Flop Based 4-Bit Counter](#part-b-t-flip-flop-based-4-bit-counter)
+4. [Verification](#verification)
 
 ## Overview
 

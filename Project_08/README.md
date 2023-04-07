@@ -4,16 +4,16 @@ This project uses the Basys 3 FPGA board to control three servo motors that make
 a robotic arm system.
 
 ### Table of Contents
-- [Servomotor-Actuated Robotic Arm](#servomotor-actuated-robotic-arm)
-    - [Table of Contents](#table-of-contents)
-  - [Testing Demo](#testing-demo)
-  - [Background](#background)
-  - [System Overview](#system-overview)
-    - [An Overview of Servo Motors](#an-overview-of-servo-motors)
-    - [Interfacing with the Servo Motor](#interfacing-with-the-servo-motor)
-    - [Schematic Diagram](#schematic-diagram)
-  - [Components and Assembly](#components-and-assembly)
-  - [Results and Final Remarks](#results-and-final-remarks)
+1. [Servomotor-Actuated Robotic Arm](#servomotor-actuated-robotic-arm)
+      1. [Table of Contents](#table-of-contents)
+   1. [Testing Demo](#testing-demo)
+   2. [Background](#background)
+   3. [System Overview](#system-overview)
+      1. [An Overview of Servo Motors](#an-overview-of-servo-motors)
+      2. [Interfacing with the Servo Motor](#interfacing-with-the-servo-motor)
+      3. [Schematic Diagram](#schematic-diagram)
+   4. [Components and Assembly](#components-and-assembly)
+   5. [Results and Final Remarks](#results-and-final-remarks)
 
 
 ## Testing Demo
@@ -24,7 +24,7 @@ Here is a video showing the system in action!
     <a href="https://youtube.com/shorts/qI1xIHtNqUA?feature=share" target="_blank">
     <img src="https://i.ytimg.com/vi/qI1xIHtNqUA/hq2.jpg?sqp=-oaymwEoCOADEOgC8quKqQMcGADwAQH4Ac4FgAKACooCDAgAEAEYciBVKCkwDw==&rs=AOn4CLDZ8I8Ya3cPY6Vq__X0pjdkqKl_RQ" 
     alt="Robotic arm test video!" 
-    width=70%
+    width=45%
     border="10" />
     </a>
 </p>
